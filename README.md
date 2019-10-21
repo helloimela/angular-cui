@@ -1,5 +1,7 @@
 # Corporate UI in Angular application
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/helloimela/angular-cui.svg)](https://greenkeeper.io/)
+
 To run Corporate UI in your Angular application, there are few steps you need to follow:
 1. From the command line, install `corporate-ui-dev` package from NPM by doing `npm i corporate-ui-dev` in your project folder
 2. Include `CUSTOM_ELEMENTS_SCHEMA` in the modules
