@@ -1,0 +1,12 @@
+version: 1
+
+update_configs:
+  - package_manager: "javascript"
+    directory: "/"
+    update_schedule: "daily"
+    allowed_updates:
+      - match:
+          dependency_name: "corporate-ui-dev"
+      - match:
+          # Wildcards match unlimited arbitrary characters (or none)
+          dependency_name: "scania-theme"
