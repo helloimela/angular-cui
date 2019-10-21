@@ -1,8 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { TRUCK } from '../data/truck-data';
-import { defineCustomElements } from 'corporate-ui-dev/dist/define';
-
-defineCustomElements(['c-header', 'c-navigation']);
 
 @Component({
   selector: 'app-header',
